@@ -1,6 +1,4 @@
 SELECT
-    COUNT(DISTINCT job_country)
+    job_country
 FROM
-    job_postings_fact
-WHERE
-    job_country = 'India';
+    job_postings_fact;
